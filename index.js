@@ -14,19 +14,19 @@ document.addEventListener("DOMContentLoaded", () => {
       case "HTML":
         document.documentElement.style.setProperty(
           "--primary-color",
-          "#e74c3c"
+          "#e6ff0a"
         );
         break;
       case "CSS":
         document.documentElement.style.setProperty(
           "--primary-color",
-          "#3498db"
+          "#d41212"
         );
         break;
       case "JavaScript":
         document.documentElement.style.setProperty(
           "--primary-color",
-          "#f1c40f"
+          "#43a3cc"
         );
         break;
     }
