@@ -1,17 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("skill-form");
-  const greeting = document.getElementById("greeting");
+  const form = document.getElementById("skil-form");
+  const greeting = document.getElementById("hasil");
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    const name = document.getElementById("name").value;
-    const skill = document.getElementById("skill").value;
+    const nama = document.getElementById("nama").value;
+    const skil = document.getElementById("skil-select").value;
 
-    greeting.textContent = `Hello, ${name}! You've selected ${skill}.`;
-
+    greeting.textContent = `Hai, ${nama}! kamu memilih ${skil}.`;
     // Change color scheme based on selected skill
-    switch (skill) {
+    switch (skil) {
       case "HTML":
         document.documentElement.style.setProperty(
           "--primary-color",
